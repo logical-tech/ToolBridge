@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "skills": {
+    "better-auth-best-practices": {
+      "source": "better-auth/skills",
+      "sourceType": "github",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "computedHash": "a4c830509e85557b59339d8d93a4e243e9e59c686e7678854d39230e12c2a6dc"
+    },
+    "bun": {
+      "source": "bun.sh",
+      "sourceType": "well-known",
+      "computedHash": "9362e1e5031631504011bb32f93da50dd268ac81f55b76e331151d75981b1664"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "781bd6d3f9b19f8c9af6b53d8d0e4876d0183841b565db34ca7092ffa412d111"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
+    },
+    "hono": {
+      "source": "yusukebe/hono-skill",
+      "sourceType": "github",
+      "skillPath": "skills/hono/SKILL.md",
+      "computedHash": "220e5e1b12bbaeec49ec362b6e2262d77632d0536e9758bba9acbbc323fef990"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/impeccable/SKILL.md",
+      "computedHash": "14b94c217b5a313cd69eccbed288cce844611f491df2d9e133fa10b19ff28a5a"
+    },
+    "make-interfaces-feel-better": {
+      "source": "jakubkrehel/make-interfaces-feel-better",
+      "sourceType": "github",
+      "skillPath": "skills/make-interfaces-feel-better/SKILL.md",
+      "computedHash": "54b6e221bbe4e2d1a8461c3f9ecabe69daf891f964e9ee5e699c323daa018f2e"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "d81caa0f86aabab65b25e302d454f23a3328760386ed9078345584c0d5c8058e"
+    },
+    "tanstack-query": {
+      "source": "tanstack-skills/tanstack-skills",
+      "sourceType": "github",
+      "skillPath": "plugins/tanstack-query/skills/tanstack-query/SKILL.md",
+      "computedHash": "b8a0477cd4d7bf8fa54d27f8e64d82388402f0d502591db50a357df5b9995c75"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "ca7b0c0c6e5f2750043f7f0cd72d16ac4e2abc48f9b5500d047a4b77a2506212"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    }
+  }
+}

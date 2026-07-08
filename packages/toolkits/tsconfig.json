@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["bun"],
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"]
+}

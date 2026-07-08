@@ -31,3 +31,6 @@ dist-ssr
 
 # typescript
 *.tsbuildinfo
+
+# tokensave code-graph cache
+.tokensave/

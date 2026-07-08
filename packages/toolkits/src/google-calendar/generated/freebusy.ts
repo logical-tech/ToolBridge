@@ -1,0 +1,6 @@
+// AUTO-GENERATED from Google Discovery — do not edit. Regenerate: bun run gen:google
+import { httpTool } from "../../core/index"
+
+export const freebusy = [
+  httpTool({"slug":"calendar.freebusy.query","description":"Returns free/busy information for a set of calendars.","method":"POST","path":"/freeBusy","pathParams":[],"queryParams":[],"jsonSchema":{"type":"object","properties":{"calendarExpansionMax":{"format":"int32","type":"integer","description":"Maximal number of calendars for which FreeBusy information is to be provided. Optional. Maximum value is 50."},"groupExpansionMax":{"type":"integer","description":"Maximal number of calendar identifiers to be provided for a single group. Optional. An error is returned for a group with more members than this value. Maximum value is 100.","format":"int32"},"timeMax":{"format":"date-time","type":"string","description":"The end of the interval for the query formatted as per RFC3339."},"timeMin":{"type":"string","description":"The start of the interval for the query formatted as per RFC3339.","format":"date-time"},"items":{"items":{"type":"object"},"type":"array","description":"List of calendars and/or groups to query."},"timeZone":{"description":"Time zone used in the response. Optional. The default is UTC.","type":"string","default":"UTC"}},"additionalProperties":false},"default":false}),
+]
